@@ -1,0 +1,27 @@
+---
+layout: page
+title: Meal Plan
+permalink: /meal-plan/
+nav_order: 2
+---
+Food from the meal plan.
+<table class="free-list">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Location</th>
+        <th>Weekday</th>
+        <th>Rating</th>
+        <th>Date</th>
+    </tr>
+    {% for food in site.data.meal-plan-food %}
+    <tr>
+        <td>{{ food.name }}</td>
+        <td>{{ food.time }} {% if food.type %} - {% endif %} {{ food.type }}</td>
+        <td>{{ food.location }}</td>
+        <td>{{ food.date | date: "%A" }}</td>
+        <td>{{ food.rating }}</td>
+        <td>{{ food.date | date: "%B %d, %Y" }}</td>
+    </tr>
+    {% endfor %}
+</table>

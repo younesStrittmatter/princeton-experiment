@@ -1,0 +1,47 @@
+---
+layout: page
+title: Princeton - Free
+permalink: /free/
+nav_order: 1
+---
+<h2>Food</h2>
+Free food and beverage.
+<table class="free-list">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Location</th>
+        <th>Weekday</th>
+        <th>Rating</th>
+        <th>Date</th>
+    </tr>
+    {% for food in site.data.free-food %}
+    <tr>
+        <td>{{ food.name }}</td>
+        <td>{{ food.time }} {% if food.type %} - {% endif %} {{ food.type }}</td>
+        <td>{{ food.location }}</td>
+        <td>{{ food.date | date: "%A" }}</td>
+        <td>{{ food.rating }}</td>
+        <td>{{ food.date | date: "%B %d, %Y" }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Items</h2>
+Useful and free items.
+<table class="free-list">
+    <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Weekday</th>
+        <th>Date</th>
+    </tr>
+    {% for item in site.data.free-items %}
+    <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.location }}</td>
+        <td>{{ item.date | date: "%A" }}</td>
+        <td>{{ item.date | date: "%B %d, %Y" }}</td>
+    </tr>
+    {% endfor %}
+</table>

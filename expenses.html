@@ -1,0 +1,42 @@
+---
+layout: page
+title: Expenses
+permalink: /expenses/
+nav_order: 2
+---
+<h2>Meal Plan</h2>
+Meal plan per semester:
+<table class="free-list">
+    <tr>
+        <th>Cost</th>
+        <th>Semester</th>
+    </tr>
+    {% for plan in site.data.meal-plan-costs %}
+    <tr>
+        <td>{{ plan.cost }}</td>
+        <td>{{ plan.semester }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Additional Expenses</h2>
+Items that are needed but couldn't be found for free. This is in addition to fixed costs like rent, insurance, phone plan, ...
+<table class="free-list">
+    <tr>
+        <th>Name</th>
+        <th>Costs</th>
+        <th>Location</th>
+        <th>Weekday</th>
+        <th>Date</th>
+
+    </tr>
+    {% for item in site.data.additional-expenses %}
+    <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.cost }}</td>
+        <td>{{ item.location }}</td>
+        <td>{{ item.date | date: "%A" }}</td>
+        <td>{{ item.date | date: "%B %d, %Y" }}</td>
+    </tr>
+    {% endfor %}
+</table>

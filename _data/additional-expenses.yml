@@ -1,0 +1,12 @@
+- name: shower shoes
+  location: amazon
+  cost: $10,40
+  date: 2024-09-01
+- name: bathrobe
+  location: amazon
+  cost: $29,12
+  date: 2024-09-01
+- name: mattress topper
+  location: amazon
+  cost: $38,48
+  date: 2024-09-01
