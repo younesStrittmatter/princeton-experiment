@@ -1,0 +1,4 @@
+- name: Drinks
+  location: Ivy Inn
+  cost: $10.00
+  date: 2024-09-01

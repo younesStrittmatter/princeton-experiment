@@ -14,7 +14,4 @@
   location: amazon
   cost: $10.11
   date: 2024-09-01
-- name: Drinks
-  location: Ivy Inn
-  cost: $10.00
-  date: 2024-09-01
+

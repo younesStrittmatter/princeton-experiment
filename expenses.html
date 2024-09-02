@@ -20,7 +20,8 @@ Meal plan per semester:
 </table>
 
 <h2>Additional Expenses</h2>
-Items that are needed but couldn't be found for free. This is in addition to fixed costs like rent, insurance, phone plan, ...
+<h3>Items</h3>
+Items that are needed but couldn't be found for free, such as groceries, household supplies, or transportation costs. Fixed expenses like rent or insurance are not listed.
 <table class="free-list">
     <tr>
         <th>Name</th>
@@ -40,3 +41,27 @@ Items that are needed but couldn't be found for free. This is in addition to fix
     </tr>
     {% endfor %}
 </table>
+
+<h3>Socializing</h3>
+Food and beverages that are purchased in a social context, such as when going out with friends, are often referred to as social dining and drinks.
+<table class="free-list">
+    <tr>
+        <th>Name</th>
+        <th>Costs</th>
+        <th>Location</th>
+        <th>Weekday</th>
+        <th>Date</th>
+
+    </tr>
+    {% for item in site.data.socializing %}
+    <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.cost }}</td>
+        <td>{{ item.location }}</td>
+        <td>{{ item.date | date: "%A" }}</td>
+        <td>{{ item.date | date: "%B %d, %Y" }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
