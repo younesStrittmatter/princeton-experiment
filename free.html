@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Princeton - Free
+title: Free
 permalink: /free/
 nav_order: 1
 ---
@@ -11,6 +11,7 @@ Free food and beverage.
         <th>Name</th>
         <th>Type</th>
         <th>Location</th>
+        <th>Event</th>
         <th>Weekday</th>
         <th>Rating</th>
         <th>Date</th>
@@ -20,6 +21,7 @@ Free food and beverage.
         <td>{{ food.name }}</td>
         <td>{{ food.time }} {% if food.type %} - {% endif %} {{ food.type }}</td>
         <td>{{ food.location }}</td>
+        <td>{{ food.event }}</td>
         <td>{{ food.date | date: "%A" }}</td>
         <td>{{ food.rating }}</td>
         <td>{{ food.date | date: "%B %d, %Y" }}</td>
