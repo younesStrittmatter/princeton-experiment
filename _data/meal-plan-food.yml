@@ -1,0 +1,6 @@
+- name: buffet
+  time: breakfast
+  type: salty
+  location: Whitman and Butler dining hall
+  date: 2024-09-02
+  rating: 4
