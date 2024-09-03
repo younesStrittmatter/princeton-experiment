@@ -49,3 +49,19 @@
   location: Princeton Neuroscience Institute
   date: 2024-09-03
   rating: 2
+- name: full meal - pasta, salmon
+  time: lunch
+  type: sweet and salty
+  location: Princeton Neuroscience Institute
+  event: Lab meeting
+  date: 2024-09-03
+  rating: 5
+- name: coffee
+  location: Princeton Neuroscience Institute
+  date: 2024-09-03
+  rating: 2
+- name: various fruits
+  location: Frist Campus Center
+  date: 2024-09-03
+  rating: 5
+
