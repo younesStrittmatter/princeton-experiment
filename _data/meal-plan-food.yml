@@ -16,3 +16,21 @@
   location: Yeh dining hall
   date: 2024-09-05
   rating: 5
+- name: buffet
+  time: lunch
+  type: salty
+  location: Yeh dining hall
+  date: 2024-09-06
+  rating: 5
+- name: buffet
+  time: lunch
+  type: sweet and salty
+  location: Whitman and Butler dining hall
+  date: 2024-09-07
+  rating: 4
+- name: buffet
+  time: breakfast
+  type: salty
+  location:  Whitman and Butler dining hall
+  date: 2024-09-08
+  rating: 4

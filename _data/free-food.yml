@@ -10,14 +10,6 @@
   location: Center for Jewish Life
   date: 2024-09-01
   rating: 3
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-01
-  rating: 2
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-01
-  rating: 2
 - name: buffet
   time: dinner
   type: sweet and salty
@@ -25,14 +17,6 @@
   event: Pre-Rade BBQ
   date: 2024-09-01
   rating: 5
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-02
-  rating: 2
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-02
-  rating: 2
 - name: sandwiches (Olive Garden)
   time: dinner
   type: salty
@@ -45,10 +29,6 @@
   location: Frist Campus Center
   date: 2024-09-02
   rating: 2
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-03
-  rating: 2
 - name: full meal - pasta, salmon
   time: lunch
   type: sweet and salty
@@ -56,23 +36,23 @@
   event: Lab meeting
   date: 2024-09-03
   rating: 5
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-03
-  rating: 2
 - name: various fruits
   location: Frist Campus Center
   date: 2024-09-03
   rating: 5
-- name: coffee
+- name: cookie
+  time: breakfast
+  type: sweet
   location: Princeton Neuroscience Institute
-  date: 2024-09-04
-  rating: 2
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-05
-  rating: 2
-- name: coffee
-  location: Princeton Neuroscience Institute
-  date: 2024-09-05
-  rating: 2
+  date: 2024-09-06
+  rating: 3
+- name: pizza
+  time: dinner
+  location: Frist Campus Center
+  date: 2024-09-08
+  rating: 3
+- name: pizza
+  time: dinner
+  location: Lewis Library
+  date: 2024-09-09
+  rating: 3
