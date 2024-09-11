@@ -55,4 +55,9 @@
   time: dinner
   location: Lewis Library
   date: 2024-09-09
-  rating: 3
+  rating: 5
+- name: pasta
+  time: dinner
+  location: Friend Center
+  date: 2024-09-10
+  rating: 4
