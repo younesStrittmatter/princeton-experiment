@@ -48,14 +48,23 @@
   rating: 3
 - name: pizza
   time: dinner
+  type: salty
   location: Frist Campus Center
   date: 2024-09-08
   rating: 3
 - name: pizza
   time: dinner
+  type: salty
   location: Lewis Library
   date: 2024-09-09
   rating: 5
+- name: couscous and sandwich
+  time: lunch
+  type: salty
+  location: Princeton Neuroscience Institute
+  event: Lab meeting
+  date: 2024-09-10
+  rating: 4
 - name: pasta
   time: dinner
   location: Friend Center
