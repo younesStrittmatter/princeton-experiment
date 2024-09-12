@@ -71,3 +71,16 @@
   location: Friend Center
   date: 2024-09-10
   rating: 4
+- name: sandwiches
+  time: lunch
+  type: salty
+  location: Princeton Neuroscience Institute
+  date: 2024-09-11
+  event: Seminar in Cognitive Psychology
+  rating: 3
+- name: wrap
+  time: dinner
+  type: salty
+  location: Thomas Laboratory
+  date: 2024-09-11
+  rating: 3
