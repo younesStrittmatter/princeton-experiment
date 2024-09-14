@@ -84,3 +84,10 @@
   location: Thomas Laboratory
   date: 2024-09-11
   rating: 3
+- name: buffet
+  time: lunch
+  type: salty
+  location: Princeton Neuroscience Institute
+  date: 2024-09-13
+  rating: 3
+  event: Colloquium

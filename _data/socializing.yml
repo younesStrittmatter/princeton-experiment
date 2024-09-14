@@ -6,3 +6,7 @@
   location: Dinkies
   cost: $10.00
   date: 2024-09-06
+- name: pizza
+  location: Door Dash Order
+  cost: $20.00
+  date: 2024-09-13
