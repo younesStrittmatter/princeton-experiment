@@ -84,6 +84,12 @@
   location: Thomas Laboratory
   date: 2024-09-11
   rating: 3
+- name: croissants
+  time: breakfast
+  type: salty
+  location: Center for Jewish Life
+  date: 2024-09-12
+  rating: 3
 - name: buffet
   time: lunch
   type: salty
